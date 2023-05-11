@@ -1,1 +1,27 @@
+body{
+    font-size: medium;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.intro{
+    padding: 5px;
+}
 
+img{
+    width: 170px;
+}
+ol{
+    padding-left: 15px;
+}
+
+li{
+    padding-left: 3px;
+}
+.headlines{
+    font-weight: 600;
+}
+.description{
+    font-weight: 400;
+}
+footer{
+    text-align: center;
+}
