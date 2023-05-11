@@ -2,88 +2,110 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>👓 My starter Website</title>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="CSS/styles.css">
+    <title>My Resume</title>
 </head>
 <body>
-    <table cellspacing="20px">
-        <tr>
-            <td><img src="images/zoro.jpeg" alt="Suriya Profile Picture." srcset=""></td>
-            <td>
-                <h1> Suriya Selvaraj</h1>
-                <p><em>Splz. Senior Infra Engineer.</em></p>
-                <p>Web Developer and System Support at Mphasis Limited, Chennai. I am capable of writing clean code and enjoy troubleshooting problems and finding solutions over continuous manual tasks to keep things simple.</p>            
-            </td>
-        </tr>
-    </table>
-    <hr>
-    <h3>Education</h3>
-    <ul>
-        <li><strong>Elementary Education</strong> - S.S.M. Primary School, KPM.</li>
-        <li>
-            <strong>Secondary Education</strong> 
-            <ul>
-                <li>S.S.M. Hr. Secondary School, KPM (2nd - 8th grade).</li>
-                <li>S.K.V. Hr. Secondary School, KPM (9th - HSC grade).</li>
-            </ul>
-        </li>
-        <li>
-            <strong>College</strong>
-            <ul>
-                <li><strong>Bachelor of Enginnering - <em>Electrical and Electronics Engineer</em></strong> @ Bannari Amman Institute of Technology, Sathyamangalam.</li>
-            </ul>
-        </li>
-    </ul>
-    <hr>
-    <h3>Work Experience</h3>
-    <table cellspacing="10px">
-        <thead>
-            <tr>
-                <th>Year</th>
-                <th>Role</th>
-                <th>Company</th>
-            </tr>
-        </thead>
-        <tbody>
-            <tr>
-                <td>2018-Present date</td>
-                <td>Splz. Senior Infra Engineer</td>
-                <td>Mphasis Limited, Chennai</td>
-            </tr>
-        </tbody>
-        <tfoot></tfoot>
-    </table>
-    <hr>
+    <article>
+        <div class="intro">
+            <img src="./images/Suriya1.jpg" alt="Suriya Selvaraj">
+            <h1>Suriya Selvaraj</h1>
+        </div>
 
-    <h3>Skills</h3>
+        <div class="summary">
+            <h3>SUMMARY</h3>
+            <p> A developer dedicated to gaining knowledge and improving myself to take up new and harder challenges by every day. A team player with good communication skills and sound technical knowledge.</p>
+            <p>Have good working experience in HTML, CSS, Javascript, Node Js and MongoDB to build web site that provides information that is updating every 20 seconds.</p>
+            <p>I have experience monitoring mainframe systems using Python automations and Flask projects, and have also worked on maintaining servers and virtual machines.</p>    
+        </div>
+        <div>
+            <h3>EDUCATION</h3>
+        <ul>
+            <li>
+                <p>2014-2018: Bachelor Of Engineer in Electrical & Electronics at Bannari Amman Institute of Technology. Score-<strong> 6.67 CGPA</strong></p>
+            </li>
+        </ul>
 
-    <table cellspacing="10px">
-        <tr>
-            <td>Python</td>
-            <td>⭐⭐⭐⭐⭐</td>
-        </tr>
-        <tr>
-            <td>HTML</td>
-            <td>⭐⭐⭐⭐</td>
-        </tr>
-        <tr>
-            <td>CSS</td>
-            <td>⭐⭐⭐</td>
-        </tr>
-        <tr>
-            <td>JavaScript</td>
-            <td>⭐⭐⭐⭐</td>
-        </tr>
-        <tr>
-            <td>Bootstrap</td>
-            <td>⭐⭐</td>
-        </tr>
-        <tr>
-            <td>Command Line Interface</td>
-            <td>⭐⭐⭐</td>
-        </tr>
-    </table>
-    <hr>
-    <a href="/HTML5 studies/hobies.html">My Hobbies</a>
-    <a href="/HTML5 studies/contact.html">Contact</a>
+        </div>
+        <div class="work">
+            <h3>WORK EXPERIENCE</h3>
+            <ol class="experience">
+                <p class="headlines">Trainee Associate Software Engineer  at Mphasis Limited, Chennai from November 2018 till August 2020.</p> 
+                <li>
+                    Worked as System Support for TPF Mainframe systems and Virtual Machines to monitor and handle requests related to dumps, schedule and run automations and error handling.  
+                </li>
+                <li>
+                    Generating reports and system maintenance for TPF systems.
+                </li>
+            </ol>  
+            <ol class="experience">
+                <p class="headlines">Specialization Junior Infra Engineer at Mphasis Limited, Chennai from October 2020 till November 2021.</p>
+                <li>
+                    Worked as TOS support and REXX developer to create automations to handle multiple system reports. 
+                </li>
+                <li>
+                    Created automation to automatically generate logs, update system information and reduce manual repetition of tasks. 
+                </li>
+            </ol>                    
+            <ol class="experience">
+                <p class="headlines">Specialization Senior Infra Engineer at Mphasis Limited, Chennai from November 2021 till Current date.</p>
+                <li>
+                    Created python automation to monitor system information.
+                </li>
+                <li>
+                    Created python automation to upload real-time generated logs with a gap of 10 seconds for more than 60 Virtual processors.
+                </li>
+                <li>
+                    Worked on migration of Perl legacy scripts to python scripts using Flask library.
+                </li>
+                <li>
+                    Converted from HTML, Perl webscipts to HTML5, CSS and Node Js to monitor maiframe systems and provide information to users.
+                </li>
+            </ol>
+        </div>
+        <div class="skillset">
+            <h3>Technical Skills</h3>
+            <ol>
+                <p>TPF Operations Server Developer & Support - ⭐️⭐️⭐️⭐️⭐️</p>
+                <li>Obhect Oriented REXX                     - ⭐️⭐️⭐️⭐️⭐️</li>
+                <li>TOS RAVEN variations                     - ⭐️⭐️⭐️⭐️⭐️</li>
+                <li>TPF Assembler                            - ⭐️⭐️⭐️</li>
+            </ol>
+            <ol>
+                <p>Web developer</p>
+                <li>HTML5                - ⭐️⭐️⭐️⭐️</li> 
+                <li>CSS                  - ⭐️⭐️⭐️⭐️</li>
+                <li>JS                   - ⭐️⭐️⭐️⭐️</li>
+                <li>Node JS              - ⭐️⭐️</li>
+                <li>Python 3             - ⭐️⭐️⭐️⭐️</li>
+                <li>Flask                - ⭐️⭐️⭐️</li>
+            </ol>
+        </div>
+        <div>
+            <h3>Awards</h3>
+            <ol>
+                <li>Employee of the month award winner at Mphasis on October, 2019</li>
+                <li>ACE award winner at Mphasis on November, 2020</li>
+            </ol>
+        </div>
+        <div>
+            <h3>Other</h3>
+            <ul>
+                <li>
+                    <a href="hobbies.html"><h3>My Hobbies</h3></a>
+                </li>
+                <li>
+                    <a href="contact.html"><h3>Contact Me</h3></a>    
+                </li>
+            </ul>
+        </div>
+        <footer>
+            <p>© Suriya Selvaraj. All rights reserved.</p>
+        </footer>
+    </article>
+
+    </div>
 </body>
 </html>
